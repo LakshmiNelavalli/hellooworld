@@ -30,7 +30,8 @@ public class HomeController {
 
 		return "home";
 	}
-
+      
+	/** Addin comments here **/
 	@RequestMapping(value = "/user", method = RequestMethod.POST)
 	public String user(@Validated User user, Model model) {
 		System.out.println("User Page Requested");
